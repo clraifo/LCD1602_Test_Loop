@@ -1,0 +1,14 @@
+Basic wiring guide for the Arduino Uno R3:
+
+VSS connects to Arduino GND
+VDD connects to Arduino 5V
+V0 connects to the center leg of a 10k potentiometer (ends of potentiometer connect to 5V and GND respectively, to adjust contrast)
+RS connects to Arduino digital pin 12
+RW connects to Arduino GND
+E connects to Arduino digital pin 11
+D4 connects to Arduino digital pin 5
+D5 connects to Arduino digital pin 4
+D6 connects to Arduino digital pin 3
+D7 connects to Arduino digital pin 2
+A (backlight +) connects to Arduino 5V through a 220 ohm resistor
+K (backlight -) connects to Arduino GND
